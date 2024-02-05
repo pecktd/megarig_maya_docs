@@ -5,11 +5,6 @@
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
-import os
-import sys
-
-sys.path.insert(0, os.path.abspath(".."))
-
 project = "megarig_maya"
 copyright = "2024, peck"
 author = "peck"
@@ -17,7 +12,7 @@ author = "peck"
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["sphinx.ext.autodoc", "sphinx.ext.todo", "sphinx.ext.viewcode", "sphinx_markdown_builder"]
+extensions = ["sphinx.ext.autodoc", "sphinx.ext.todo", "sphinx.ext.viewcode"]
 
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
